@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot/issues"
   },
-  "homepage": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot#readme"
+  "homepage": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
 }
