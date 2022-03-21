@@ -1,10 +1,10 @@
 // Using this tutorial: https://www.writebots.com/how-to-make-a-discord-bot/
 
 // Require the necessary discord.js classes
-import  { Client, Intents } from 'discord.js';
-import logger from 'winston';
-import auth from './auth.json' assert {type: "json"};
-import mypackage from './package.json' assert {type: "json"};
+const { Client, Intents } = require('discord.js');
+const logger = require('winston');
+const auth = require('./auth.json');
+// const projectPackage = require('./package.json');
 
 logger.level = 'debug';
 
@@ -12,14 +12,15 @@ logger.level = 'debug';
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 client.once('ready', () => {
-    console.log('Ready!');
+	console.log('Ready!');
 });
 
 client.on('message', msg => {
-    console.log(`Message is: ${msg}`);
-    if (msg.content === 'ping') {
-      msg.channel.send('pong');
-    }
-  });
+	console.log(`Message is: ${msg}`);
+	if (msg.content === 'ping') {
+		msg.channel.send('pong');
+	}
+});
+
 
 client.login(auth.token);
