@@ -2,7 +2,8 @@
   "name": "newscorrespondent_discordbot",
   "version": "1.0.0",
   "description": "A Discord bot to bring in news (mostly about the current Russo-Ukrainian War) and make post it in a pretty format.",
-  "main": "main.ts",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,8 @@
     "url": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot/issues"
   },
   "homepage": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot#readme",
-  "devDependencies": {
-    "typescript": "^4.6.2"
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "winston": "^3.6.0"
   }
 }
