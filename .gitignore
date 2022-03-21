@@ -1,6 +1,5 @@
 # Ignore the auth file
-auth.json
-/auth.json
+auth.*
 
 # Logs
 logs
