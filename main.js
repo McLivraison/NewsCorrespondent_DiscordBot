@@ -1,12 +1,13 @@
 // Using this tutorial: https://www.writebots.com/how-to-make-a-discord-bot/
 
 // Require the necessary discord.js classes
-const { Client, Intents } = require('discord.js');
-const logger = require('winston');
-const auth = require('./auth.json');
+import { Client, Intents } from 'discord.js';
+import winston from 'winston';
+import auth from './auth.json' assert {type: "json"};
+// import auth from './auth.json' assert {type:"json"};
 // const projectPackage = require('./package.json');
 
-logger.level = 'debug';
+winston.level = 'debug';
 
 // Initialize Discord Bot
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });

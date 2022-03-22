@@ -1,12 +1,17 @@
 {
+	"parser": "@babel/eslint-parser",
 	"extends": "eslint:recommended",
 	"env": {
 		"node": true,
 		"es6": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 2021
-	},
+		"ecmaVersion": 2020,
+		"sourceType": "module",
+		"ecmaFeatures": {
+		  "jsx": true
+		}
+	  },
 	"rules": {
 		"arrow-spacing": ["warn", { "before": true, "after": true }],
 		"brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
