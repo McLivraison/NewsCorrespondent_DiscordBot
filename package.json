@@ -1,6 +1,6 @@
 {
   "name": "newscorrespondent_discordbot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Discord bot to bring in news (mostly about the current Russo-Ukrainian War) and make post it in a pretty format.",
   "main": "bot.js",
   "type": "module",
