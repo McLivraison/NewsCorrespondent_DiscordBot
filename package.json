@@ -19,23 +19,10 @@
   },
   "homepage": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot#readme",
   "dependencies": {
-    "@babel/plugin-proposal-decorators": "^7.17.8",
     "discord.js": "^13.6.0",
     "winston": "^3.6.0"
   },
   "devDependencies": {
-<<<<<<< Updated upstream
-=======
-    "@babel/eslint-parser": "^7.17.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/preset-env": "^7.16.11",
->>>>>>> Stashed changes
     "eslint": "^8.11.0"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run lint",
-      "git add"
-    ]
   }
 }
