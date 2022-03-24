@@ -2,7 +2,7 @@
   "name": "newscorrespondent_discordbot",
   "version": "0.0.1",
   "description": "A Discord bot to bring in news (mostly about the current Russo-Ukrainian War) and make post it in a pretty format.",
-  "main": "bot.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
