@@ -5,18 +5,14 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
-    "deploy": "ask deploy",
-    "test": "jest",
-    "lint": "eslint .",
-    "precommit": "lint-staged",
-    "prepush": "npm run test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/McLivraison/NewsCorrespondent_DiscordBot.git"
   },
   "keywords": [],
-  "author": "McLivraison - https://github.com/McLivraison",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot/issues"
