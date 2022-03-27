@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/McLivraison/NewsCorrespondent_DiscordBot#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "discord.js": "^13.6.0",
     "winston": "^3.6.0"
   }
